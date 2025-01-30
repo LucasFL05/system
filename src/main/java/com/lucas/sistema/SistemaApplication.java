@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @EntityScan(basePackages = "com.lucas.sistema.model")
 public class SistemaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SistemaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SistemaApplication.class, args);
+    }
 
 }
