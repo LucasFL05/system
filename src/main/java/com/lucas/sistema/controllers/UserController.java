@@ -27,7 +27,7 @@ public class UserController {
         return new ResponseEntity<>(users, HttpStatus.OK); // Retorna a lista de usuários com status 200 OK
     }
 
-    @GetMapping("{id}") // Mapeia requisições GET com um ID para este método
+    @GetMapping("/{id}") // Mapeia requisições GET com um ID para este método
     public ResponseEntity<User> findById(@PathVariable Long id) {
         Optional<User> user = userRepository.findById(id); // Busca um usuário pelo ID
         return user.map(value -> new ResponseEntity<>(value, HttpStatus.OK)) // Se encontrado, retorna o usuário com status 200 OK

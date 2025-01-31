@@ -1,0 +1,141 @@
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* Estilos do formulário */
+  .form-label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 8px;
+  }
+
+  .form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.3s ease;
+  }
+
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52,152,219,0.2);
+  }
+
+  /* Estilos dos botões */
+  .btn {
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 5px;
+  }
+
+  .btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+
+  .btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    transform: translateY(-1px);
+  }
+
+  .btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+  }
+
+  .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background-color: #95a5a6;
+    border-color: #95a5a6;
+  }
+
+  .btn-secondary:hover {
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+    transform: translateY(-1px);
+  }
+
+  .btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+  }
+
+  .btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+    transform: translateY(-1px);
+  }
+
+  /* Modal */
+  .modal-content {
+    border-radius: 12px;
+    border: none;
+  }
+
+  .modal-header {
+    background-color: #3498db;
+    color: white;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .modal-title {
+    font-weight: 700;
+  }
+
+  /* Tabela */
+  #tableResults {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #tableResults th {
+    background-color: #3498db !important;
+    color: white;
+    font-weight: 600;
+  }
+
+  #tableResults tr:hover {
+    background-color: #f8f9fa;
+  }
+
+  /* Responsividade */
+  @media (max-width: 576px) {
+    .container {
+      padding: 20px;
+    }
+    
+    .btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
